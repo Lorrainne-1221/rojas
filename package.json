@@ -1,0 +1,27 @@
+{
+  "name": "lorin-portfolio",
+  "version": "1.0.0",
+  "description": "Lorin's personal portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve",
+    "deploy:github": "gh-pages -d .",
+    "deploy:netlify": "netlify deploy --prod",
+    "deploy:vercel": "vercel --prod"
+  },
+  "keywords": [
+    "portfolio",
+    "web-development",
+    "personal-website"
+  ],
+  "author": "Lorin",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "netlify-cli": "^17.17.0",
+    "vercel": "^33.5.3"
+  }
+}
